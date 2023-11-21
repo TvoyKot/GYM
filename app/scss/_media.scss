@@ -1,0 +1,317 @@
+@media(max-width: 1360px) {
+    .premium {
+        &-inner {
+          flex-direction: column;
+        }
+        &-content {
+            max-width: 800px;
+            text-align: center;
+        }
+        &-box {
+            display: flex;
+            flex-direction: column;
+            gap: 65px;
+            align-items: center;
+        }
+        &-box__img-weight {
+            position: static;
+        }
+    }
+}
+@media(max-width: 1200px) {
+    .menu__list {
+        gap: 30px;
+    }
+
+    .header {
+        &-content__title {
+            font-size: 60px;
+            line-height: 60px;
+        }
+    }
+}
+@media(max-width: 1100px) {
+    .app {
+        padding: 60px 0 40px;
+        &__inner {
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        &-content__text {
+            color: #fff;
+        }
+        &-mobile__img-meet {
+            position: static;
+            width: 160px;
+            height: 100%;
+        }
+        &-mobile__img-premium {
+           display: none;
+        }
+    }
+    .footer {
+        &-top {
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+}
+@media(max-width: 1040px) {
+    .meet {
+        &-inner {
+            flex-direction: column;
+            gap: 100px;
+        }
+    }
+    .become {
+        &-content__title {
+            font-size: 44px;
+            line-height: 55px;
+        }
+    }
+}
+@media(max-width: 1010px) {
+    .menu__list {
+        gap: 20px;
+
+        &-link {
+            font-size: 14px;
+        }
+    }
+
+    .header {
+        &-content__title {
+            font-size: 50px;
+            line-height: 50px;
+        }
+    }
+}
+
+@media(max-width: 910px) {
+    .menu__list {
+        gap: 10px;
+
+        &-link {
+            font-size: 13px;
+        }
+    }
+
+    .header {
+        &-top__search::placeholder {
+            font-size: 15px;
+        }
+
+        &-top__search {
+            width: 120px;
+        }
+
+        &-top__btn {
+            padding: 16px 35px;
+        }
+
+        &-content__title {
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+}
+@media(max-width: 880px) {
+    .real {
+        &-box {
+          margin-left: 0;  
+        }
+    }
+}
+@media(max-width: 860px) {
+    .header {
+        &-content__title {
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        .menu__list {
+            gap: 8px;
+
+            &-link {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .menu {
+        width: 30px;
+        height: 2px;
+        background-color: #fff;
+        position: relative;
+        cursor: pointer;
+        &::before {
+            position: absolute;
+            content: '';
+            top: -10px;
+            right: 0;
+            width: 30px;
+            height: 2px;
+            background-color: #fff;
+        }
+        &::after {
+            position: absolute;
+            content: '';
+            top: 10px;
+            right: 0;
+            width: 30px;
+            height: 2px;
+            background-color: #fff;
+        }
+    }
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        width: 300px;
+        background-color: #000;
+        height: 150px;
+        top: 20px;
+        border-radius: 5px;
+        left: -140px;
+        z-index: 5;
+        position: relative;
+        transform: translateY(-200%);
+        transition: all .2s ease-in-out;
+        &.menu__list--active {
+            transform: translateY(0);
+        }
+    }
+
+    .header {
+        margin-bottom: 40px;
+        &-top__inner {
+            flex-direction: column;
+            gap: 10px;
+        }
+        &-top__search::placeholder {
+            font-size: 0;
+        }
+
+        &-content__title {
+            font-size: 28px;
+            line-height: 28px;
+        }
+        &-content__link {
+            font-size: 11px;
+        }
+        &-slider__img {
+            height: 300px;
+        }
+    }
+    .user-box {
+        display: flex;
+        gap: 30px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    .meet {
+        margin-bottom: 50px;
+        &-inner {
+            gap: 50px;
+        }
+        &-box {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        &-box__img-min {
+            position: static;
+        }
+    }
+    .become {
+        margin-bottom: 50px;
+        &-content__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        &-content__link {
+            padding: 18px 48px;
+        }
+        .big-slider__img {
+            height: 400px;
+        }
+    }
+    .real {
+        padding: 50px 0 30px;
+        &__title {
+            font-size: 30px;
+            line-height: 30px;
+        }
+        &-box {
+            display: flex;
+            gap: 20px;
+            overflow-y: scroll;
+        }
+        &-card {
+           width: 310px;
+            position: static;           
+        }
+    }
+    .social {
+        &__gallery {
+            gap: 10px;
+        }
+        .svg-wrapper {
+            height: 75px;
+            width: 75px;
+            padding: 40px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .footer {
+        &-top {
+            margin-bottom: 50px;
+        }
+        &-bottom {
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        &-bottom__list {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media(max-width: 530px) {
+    .header {
+        &-content__title {
+            font-size: 20px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+        &-content__link {
+            padding: 17px 30px;
+            font-size: 9px;
+        }
+    }
+    .become {
+        &-content__title {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+        &-content__text {
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 10px;
+        }
+        &-content__link {
+            font-size: 12px;
+            padding: 18px 44px;
+        }
+        .slick-dots {
+            bottom: 10px;
+        }
+    }
+}

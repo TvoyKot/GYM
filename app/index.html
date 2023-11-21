@@ -1,16 +1,339 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WORKING</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
+    <title>Goodlyfe</title>
 </head>
 
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="header-container">
+                    <div class="header-top__inner">
+                        <a href="#" class="logo">
+                            <img src="images/svg/logo.svg" alt="logo" class="logo__img">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__list-item">
+                                    <a href="#" class="menu__list-link">Classess
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#" class="menu__list-link">Timetable
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#" class="menu__list-link">Clubs</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#" class="menu__list-link">Nutrition
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#" class="menu__list-link">Free Trial
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="user-box">
+                            <input type="search" class="header-top__search" placeholder="Search">
+                            <button class="header-top__btn user-btn">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-slider-wrapper">
+                <div class="header-slider">
+                    <div class="header-slider__item">
+                        <img src="images/header/slider-1.jpg" alt="image" class="header-slider__img">
+                    </div>
+                    <div class="header-slider__item">
+                        <img src="images/header/slider-1.jpg" alt="image" class="header-slider__img">
+                    </div>
+                    <div class="header-slider__item">
+                        <img src="images/header/slider-1.jpg" alt="image" class="header-slider__img">
+                    </div>
+                    <div class="header-slider__item">
+                        <img src="images/header/slider-1.jpg" alt="image" class="header-slider__img">
+                    </div>
+                    <div class="header-slider__item">
+                        <img src="images/header/slider-1.jpg" alt="image" class="header-slider__img">
+                    </div>
+                </div>
+                <div class="header-content">
+                    <div class="container">
+                        <h1 class="header-content__title">Welcome to <br>
+                            Good<span>lyfe</span> Gyms</h1>
+                        <a href="#" class="header-content__link">See the benefits</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+       <main class="main">
+            <section class="meet">
+                <div class="container">
+                    <div class="meet-inner">
+                        <div class="meet-box">
+                            <img src="images/meet/img-2.jpg" alt="image" class="meet-box__img">
+                            <img src="images/meet/img-1.jpg" alt="image" class="meet-box__img-min">
+                        </div>
+                        <div class="meet-content">
+                            <h2 class="meet-content__title">Meet your new body</h2>
+                            <p class="meet-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vivamus
+                                eget lectus urna. Nulla magna tortor, bibendum in molestie sed, gravida nec felis. Sed
+                                id
+                                egestasegestas risus, ut imperdiet augue.</p>
+                            <a href="#" class="meet-content__link">View the FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="become">
+                <div class="big-slider-wrapper">
+                    <div class="big-slider">
+                        <div class="big-slider__item">
+                            <img src="images/big-slider/slider-1.jpg" alt="image" class="big-slider__img">
+                        </div>
+                        <div class="big-slider__item">
+                            <img src="images/big-slider/slider-1.jpg" alt="image" class="big-slider__img">
+                        </div>
+                        <div class="big-slider__item">
+                            <img src="images/big-slider/slider-1.jpg" alt="image" class="big-slider__img">
+                        </div>
+                        <div class="big-slider__item">
+                            <img src="images/big-slider/slider-1.jpg" alt="image" class="big-slider__img">
+                        </div>
+                        <div class="big-slider__item">
+                            <img src="images/big-slider/slider-1.jpg" alt="image" class="big-slider__img">
+                        </div>
+                    </div>
+                    <div class="become-content">
+                        <h2 class="become-content__title">Become more than you are.</h2>
+                        <p class="become-content__text">
+                            Staying active is great fun and keeps you healthy.
+                            Check out how you can join in.</p>
+                        <a href="#" class="become-content__link">Let's do it!</a>
+                    </div>
+                </div>
+            </section>
+            <section class="premium">
+                <div class="container">
+                    <div class="premium-inner">
+                        <div class="premium-content">
+                            <h3 class="premium-content__title">Premium Facilities</h3>
+                            <p class="premium-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vivamus eget lectus urna. Nulla magna tortor, bibendum in molestie sed, gravida nec
+                                felis.
+                                Sed id egestasegestas risus, ut imperdiet augue.</p>
+                            <a href="#" class="premium-content__link">Learn more</a>
+                        </div>
+                        <div class="premium-box">
+                            <div class="premium-box__img-gym">
+                                <img src="images/premium/image-1.jpg" alt="image">
+                            </div>
+                            <div class="premium-box__img-weight">
+                                <img src="images/premium/image-2.jpg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="real">
+                <div class="container">
+                    <div class="real__inner">
+                        <h4 class="real__title">Real Stories from <br>
+                            Real Customers</h4>
+                        <p class="real__subtitle">Be inspired with these experiences.</p>
+                        <div class="real-box">
+                            <div class="real-card">
+                                <p class="real-card__weight">3Kg lost!</p>
+                                <p class="real-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vivamus eget lectus urna. Nulla magna tortor, bibendum in molestie sed, gravida nec
+                                    felis. Sed id egestasegestas risu.</p>
+                                <div class="real-card__author">
+                                    <div class="real-card__author-img">
+                                        <img src="images/real/author-1.png" alt="author-photo">
+                                    </div>
+                                    <div class="real-card__author-info">
+                                        <p class="real-card__author-name">James John</p>
+                                        <p class="real-card__author-job">Mother of two</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="real-card real-card-17">
+                                <p class="real-card__weight">17Kg lost!</p>
+                                <p class="real-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vivamus eget lectus urna. Nulla magna tortor, bibendum in mo.</p>
+                                <div class="real-card__author">
+                                    <div class="real-card__author-img">
+                                        <img src="images/real/author-2.png" alt="author-photo">
+                                    </div>
+                                    <div class="real-card__author-info">
+                                        <p class="real-card__author-name">Mary Patricia</p>
+                                        <p class="real-card__author-job">Mother of two</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="real-card real-card-43">
+                                <p class="real-card__weight">43Kg lost!</p>
+                                <p class="real-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="real-card__author">
+                                    <div class="real-card__author-img">
+                                        <img src="images/real/author-3.png" alt="author-photo">
+                                    </div>
+                                    <div class="real-card__author-info">
+                                        <p class="real-card__author-name">Robert Micheal</p>
+                                        <p class="real-card__author-job">Mother of two</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <section class="app">
+                <div class="container">
+                    <div class="app__inner">
+                        <div class="app-content">
+                            <h4 class="app-content__title">Don’t forget our app</h4>
+                            <p class="app-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vivamus eget lectus urna. Nulla magna tortor, bibendum in molestie sed, gravida nec
+                                felis. Sed id egestasegestas risus, ut imperdiet augue.</p>
+                            <p class="app-content__download">Download now:</p>
+                            <a href="#">
+                                <img src="images/svg/Google-Play-Badge.svg" alt="icon-Google">
+                            </a>
+                            <a href="#">
+                                <img src="images/svg/App-Store-Badge.svg" alt="icon-Apple">
+                            </a>
+                        </div>
+                        <div class="app-mobile">
+                            <div class="app-mobile__img app-mobile__img-meet">
+                                <img src="images/app/phone-meet.png" alt="image">
+                            </div>
+                            <div class="app-mobile__img app-mobile__img-premium">
+                                <img src="images/app/phone-premium.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="social">
+                <div class="container">
+                    <h4 class="social__title">Social</h4>
+                    <div class="social__gallery">
+                        <div class="svg-wrapper">
+                            <svg class="svg-icon-facebook-dims">
+                                <use xlink:href="images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </div>
+                        <div class="svg-wrapper">
+                            <svg class="svg-icon-youtube-dims">
+                                <use xlink:href="images/sprite.svg#icon-youtube"></use>
+                            </svg>
+                        </div>
+                        <div class="svg-wrapper">
+                            <svg class="svg-icon-instagram-dims">
+                                <use xlink:href="images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-top__info">
+                        <img src="images/svg/logo-footer.svg" alt="logo" class="footer-top__logo">
+                        <p class="footer-top__text">Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc
+                            quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.</p>
+                        <ul class="social-list">
+                            <li class="social-list__item">
+                                <a href="#" class="social-list__link">
+                                    <img src="images/svg/min-icon-insta.svg" alt="icon-insta"
+                                        class="social-list__img"></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a href="#" class="social-list__link">
+                                    <img src="images/svg/min-icon-web.svg" alt="icon-web" class="social-list__img"></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a href="#" class="social-list__link">
+                                    <img src="images/svg/min-icon-twitter.svg" alt="icon-twitter"
+                                        class="social-list__img"></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a href="#" class="social-list__link">
+                                    <img src="images/svg/min-icon-youtube.svg" alt="icon-youtube"
+                                        class="social-list__img"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__list-item-title"><a href="#">Quick Links</a></li>
+                        <li class="footer-top__list-item"><a href="#">Classes</a></li>
+                        <li class="footer-top__list-item"><a href="#">Timetable</a></li>
+                        <li class="footer-top__list-item"><a href="#">Clubs</a></li>
+                        <li class="footer-top__list-item"><a href="#">Nutrition</a></li>
+                        <li class="footer-top__list-item"><a href="#">Free Trial</a></li>
+                    </ul>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__list-item-title"><a href="#">Guides</a></li>
+                        <li class="footer-top__list-item"><a href="#">Weight Loss</a></li>
+                        <li class="footer-top__list-item"><a href="#">Strength Gain</a></li>
+                        <li class="footer-top__list-item"><a href="#">Crossfit</a></li>
+                        <li class="footer-top__list-item"><a href="#">Washbaord Abs</a></li>
+                        <li class="footer-top__list-item"><a href="#">Dieting</a></li>
+                    </ul>
+                    <ul class="footer-top__list footer-top__list-contacts">
+                        <li class="footer-top__list-item-title">Reach us</li>
+                        <li class="footer-top__list-item">
+                            <a class="footer-top__link-post" href="#">admin@goodlyfe.co</a>
+                        </li>
+                        <li class="footer-top__list-item">
+                            <a class="footer-top__link-tel" href="#">+88 98765 43210</a>
+                        </li>
+                        <li class="footer-top__list-item">
+                            <a class="footer-top__link-address" href="#">90210 Beverly Hills
+                                California USA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom__rights">© 2020 GoodLyfe. All rights reserved</div>
+                    <ul class="footer-bottom__list">
+                        <li class="footer-bottom__list-item">
+                            <a href="#" class="footer-bottom__list-link">Terms & Conditions</a>
+                        </li>
+                        <li class="footer-bottom__list-item">
+                            <a href="#" class="footer-bottom__list-link">Privacy Policy</a>
+                        </li>
+                        <li class="footer-bottom__list-item">
+                            <a href="#" class="footer-bottom__list-link">Sitemap</a>
+                        </li>
+                        <li class="footer-bottom__list-item">
+                            <a href="#" class="footer-bottom__list-link">Disclaimer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
     <script src="js/main.min.js"></script>
 </body>
 

@@ -19,7 +19,6 @@ const include = require('gulp-include');
 const imagemin = require('gulp-imagemin');
 const newer = require('gulp-newer');
 
-const cheerio = require('gulp-cheerio');
 const svgMin = require('gulp-svgmin');
 const replace = require('gulp-replace');
 const svgSprite = require('gulp-svg-sprite');
@@ -62,14 +61,6 @@ function sprite() {
             js2svg: {
                 pretty: true
             }
-        }))
-        .pipe(cheerio({
-            run: (function($) {
-                $('[fill]').removeAttr('fill');
-                $('[stroke]').removeAttr('stroke');
-                $('[style]').removeAttr('style');
-            }),
-            parserOptions: {xmlMode: true}
         }))
         .pipe(replace('&gt;', '>'))
         .pipe(svgSprite({
